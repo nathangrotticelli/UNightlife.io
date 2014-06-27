@@ -30,7 +30,7 @@ app.configure('development', function(){
   app.use(express.errorHandler());
 });
 
-app.get('/', routes.index);
+app.get('www.unightlife.io', routes.index);
 
 app.post('/contactSend', function(req,res){
   // create reusable transport method (opens pool of SMTP connections)
@@ -70,7 +70,7 @@ smtpTransport.sendMail(mailOptions, function(error, response){
     // if you don't want to use this transport object anymore, uncomment following line
     //smtpTransport.close(); // shut down the connection pool, no more messages
 });
-res.redirect('/');
+res.redirect('www.unightlife.io');
 });
 
 // app.get('/users', user.list);
