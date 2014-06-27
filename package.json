@@ -1,5 +1,5 @@
 {
-  "name": "un-yo",
+  "name": "UN.com",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -16,5 +16,17 @@
     "request": "~2.27.0",
     "time-grunt": "~0.1.1",
     "load-grunt-tasks": "~0.2.0"
-  }
+  },
+  "description": "UN.com",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/n/a"
+  },
+  "author": "NG",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/n/a/issues"
+  },
+  "homepage": "https://github.com/n/a"
 }
