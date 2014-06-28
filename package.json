@@ -10,6 +10,7 @@
     "jade": "~0.34.0"
   },
   "devDependencies": {
+    "aws-sdk-apis": "^3.0.6",
     "grunt": "~0.4.1",
     "grunt-contrib-watch": "~0.5.3",
     "grunt-develop": "~0.2.2",
