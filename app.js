@@ -2,14 +2,14 @@
 /**
  * Module dependencies.
  */
-NODE_PATH='./node_modules';
+// NODE_PATH='./node_modules';
 var express = require('express')
   , routes = require('./routes')
   , swig = require('swig')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
-  , xml2js = require('xml2js')
+  // , xml2js = require('xml2js')
   , nodemailer = require("nodemailer");
 
 var app = express();
