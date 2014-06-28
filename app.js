@@ -9,6 +9,7 @@ var express = require('express')
   , user = require('./routes/user')
   , http = require('http')
   , path = require('path')
+  , xml2js = require('xml2js')
   , nodemailer = require("nodemailer");
 
 var app = express();
