@@ -2,7 +2,8 @@
 /**
  * Module dependencies.
  */
-require.paths.push('/usr/local/lib/node_modules');
+export NODE_PATH=/usr/local/lib/node_modules
+
 var express = require('express')
   , routes = require('./routes')
   , swig = require('swig')
