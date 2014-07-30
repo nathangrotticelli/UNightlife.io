@@ -11,7 +11,6 @@ GLOBAL STYLES
 html {
     font-size: 100%;
 }
-
 body {
     background: #232323;
     font-family: 'Roboto', sans-serif;
@@ -33,7 +32,15 @@ body {
 
 
 }
+.confirm_selection {
+    -webkit-animation: glow .5s infinite alternate;
+}
 
+@-webkit-keyframes glow {
+    to {
+        text-shadow: 0 0 10px red;
+    }
+}
 
 /* Internet Explorer 10 in Windows 8 and Windows Phone 8 Bug fix */
 
@@ -334,7 +341,7 @@ header .full-screen {
 
 header .only-logo .navbar {
     background: none;
-    padding: 60px;
+    padding: 0px;
 }
 
 header .only-logo .navbar .navbar-header {
@@ -345,7 +352,7 @@ header .only-logo .navbar .navbar-header {
 
 header .intro-section {
     margin: auto;
-    padding-top: 15%;
+    padding-top: 0!important%;
 }
 
 header .intro-section .intro {
