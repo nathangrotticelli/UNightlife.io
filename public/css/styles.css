@@ -332,7 +332,7 @@ header .full-screen {
     height: 100px;
 }
 .header2 {
-    background: url(../images/bg-4.jpg) no-repeat;
+    background: url(../images/bg-5.jpg) no-repeat;
     -webkit-background-size: cover;
             background-size: cover;
 }
@@ -678,7 +678,7 @@ header .intro-section .buttons {
 -----------------------------------------*/
 
 .download {
-    background: url('../images/bg-3.jpg') no-repeat center fixed;
+    background: url('../images/bg-4.jpg') no-repeat center fixed;
     -webkit-background-size: cover;
             background-size: cover;
     color: #ffffff;
