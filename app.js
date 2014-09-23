@@ -33,6 +33,7 @@ app.configure('development', function(){
 
 app.get('/', routes.index);
 app.get('/hosts', routes.hosts);
+app.get('/app', routes.app);
 
 app.post('/contactSend', function(req,res){
   // create reusable transport method (opens pool of SMTP connections)
