@@ -10,7 +10,7 @@ exports.hosts = function(req, res){
   res.render('hosts');
 };
 exports.app = function(req, res){
-  window.open("http://deeplink.me/unightlife.io/","_self");
+  location.href = "http://deeplink.me/unightlife.io/";
 };
 
 
